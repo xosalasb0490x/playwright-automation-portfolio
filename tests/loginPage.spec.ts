@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { LoginPage } from '../pages/swagLabs/loginPage';
+import { LoginPage } from '../pages/swagLabs/LoginPage';
 import { users } from '../test-data/users';
 
 test.describe('Saucedemo Login', async () => {
